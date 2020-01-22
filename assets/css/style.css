@@ -5,3 +5,10 @@ body{
 .fondo-lila{
     background-color: darkmagenta;
 }
+.hero{
+    background-image: url('../img/hero.png');
+    padding: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -11,9 +11,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: text-bottom;
+    font-family: 'Oswald', sans-serif;
 }
 .padding-top{
     padding-top: 100%;
+}
+.img-exp{
+    width:100%;
+    max-width: 200px;
+    filter: hue-rotate(180deg);
+}
+.carousel-indicators{
+    top: 100%;
+}
+.carousel-indicators li{
+    background-color: rgba(89, 22, 71, 0.5);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators li.active{
+    background-color: rgba(89, 22, 71, 1);
 }
 @media only screen and (min-width:720px){
     .padding-top{

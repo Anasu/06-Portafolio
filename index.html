@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Tipografías -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:300|Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9d1841b7b9.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -47,13 +48,16 @@
     <!-- Hero: Imagen grandota con texto encima. Considerar sacar un render 3D. Incluir muros de texto -->
     <section class="hero text-center text-white">
         <h2 class="padding-top">Yo soy</h2>
-        <h1 class="pb-5 font-weight-bold d-inline-block border-top border-white">Ana María Zúñiga</h1>
+        <h1 class="pb-5 font-weight-bold d-inline-block border-top border-white">Ana María</h1>
     </section>
     <!-- texto feo -->
-
+    <section class="textwall container pt-5">
+        <p class="h4 font-weight-bold pb-3 text-center">Actualmente me desempeño en el área de docencia realizando clases de Web, Texturas 3D y Rigging. Tengo alta capacidad de aprendizaje y buen rendimiento en equipos de trabajo organizados.</p>
+        <div class="imgrelleno p-5"></div>
+    </section>
     <!-- Mi Experiencia: titular, íconos, texto y año. Me tinca agregar carrusel con 4 col -->
-    <section class="experiencia container">
-        <h2 class="text-center">Mi Experiencia</h2>
+    <section class="experiencia container py-5 mb-5 text-center ">
+        <h2 class="pb-4 mb-5 border-bottom border-dark d-inline-block">Mi Experiencia</h2>
         <div id="carousel-exp" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-exp" data-slide-to="0" class="active"></li>
@@ -106,28 +110,62 @@
         </div>
     </section>
     <!-- Mis últimos trabajos: fotitos de las tareas. Podría robarme esto para mi web XD -->
-    <section class="ultimostrabajos">
-        <h2>Mis últimos trabajos</h2>
+    <section class="ultimostrabajos p-5 text-center">
+        <h2 class="pb-4 mb-5 border-bottom border-light d-inline-block">Mis últimos trabajos</h2>
         <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/hero.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>    
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card">
                     <img class="card-img-top" src="assets/img/hero.png" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="assets/img/hero.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
         </div>
     </section>
     <!-- Contacto: dejar datos y usar google forms porque profe dijo XD -->
+    <section class="contacto text-center p-5 my-3">
+        <h2 class="pb-4 mb-5 border-bottom border-dark d-inline-block">Contacto</h2>
+        <p>¿Quieres conocer más de mí?</p>
+        <button type="button" class="btn btn-secondary">Comenzar</button>
+    </section>
     <!-- footer. Nombre a la izq, íconos de git, linkedin, twitter y fb a la derecha -->
+    <footer class="text-center p-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                <h3 class="d-inline-block text-right">Ana María</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                <i class="fab fa-github-square "></i>
+                <i class="fab fa-linkedin "></i>
+                <i class="fab fa-facebook-square "></i>
+                <i class="fab fa-twitter-square "></i>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- jQuery v3.4.1 -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

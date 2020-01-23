@@ -2,6 +2,11 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.25em;
+    font-weight: bold;
+}
 .fondo-lila{
     background-color: #591647;
 }
@@ -33,6 +38,25 @@ body{
 .carousel-indicators li.active{
     background-color: rgba(89, 22, 71, 1);
 }
+.ultimostrabajos, footer{
+    background-color: #591647;
+}
+.ultimostrabajos h2{
+    color: white;
+}
+footer{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.imgrelleno{
+    background-image: url('../img/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (min-width:720px){
     .padding-top{
         padding-top: 50%;

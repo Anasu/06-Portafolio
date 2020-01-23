@@ -3,12 +3,20 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .fondo-lila{
-    background-color: darkmagenta;
+    background-color: #591647;
 }
 .hero{
-    background-image: url('../img/hero.png');
-    padding: 5rem;
+    background-image: url('../img/hero-1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    vertical-align: text-bottom;
+}
+.padding-top{
+    padding-top: 100%;
+}
+@media only screen and (min-width:720px){
+    .padding-top{
+        padding-top: 50%;
+    }
 }

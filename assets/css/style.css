@@ -17,6 +17,7 @@ h2{
     background-size: cover;
     vertical-align: text-bottom;
     font-family: 'Oswald', sans-serif;
+    filter: hue-rotate(160deg);
 }
 .padding-top{
     padding-top: 100%;
@@ -73,7 +74,11 @@ footer{
     margin: 3% 45% 0;
     background: white;
 }
-
+a.card,
+a.card:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
 @media only screen and (min-width:720px){
     .padding-top{
         padding-top: 50%;

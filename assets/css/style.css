@@ -56,6 +56,22 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.textwall-negro:after {
+    content: " ";
+    display: block;
+    text-align: center;
+    height: 2px;
+    margin: 3% 45% 0;
+    background: #212529;
+}
+.textwall-blanco:after {
+    content: " ";
+    display: block;
+    text-align: center;
+    height: 2px;
+    margin: 3% 45% 0;
+    background: white;
+}
 
 @media only screen and (min-width:720px){
     .padding-top{

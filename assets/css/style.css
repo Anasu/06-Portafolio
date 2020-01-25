@@ -79,6 +79,13 @@ a.card:hover {
   color: inherit;
   text-decoration: inherit;
 }
+iframe {
+    width: 100%;
+    height: 729px;
+}
+i, i:hover{
+    color: white;
+}
 @media only screen and (min-width:720px){
     .padding-top{
         padding-top: 50%;
